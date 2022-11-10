@@ -14,10 +14,10 @@ class Calculator extends Component {
     this.setState({ currentValue: `${this.state.currentValue}${value}` });
   };
 
-  evalCurrentState = event => {
-    const { currentValue } = this.state;
+ // evalCurrentState = event => {
+  //  const { currentValue } = this.state;
    // this.setState({ currentValue: eval(currentValue.replace(/÷/g, '/').replace(/x/g, '*')) });
-  }
+ // }
 
   clearCurrentState = event => {
     this.setState({ currentValue: '' });
